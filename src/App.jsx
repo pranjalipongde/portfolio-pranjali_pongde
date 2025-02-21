@@ -6,11 +6,14 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Work from "./components/Work";
 import Skills from "./components/Skills";
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
 
 function App() {
   const aboutRef = useRef(null);
   const skillsRef = useRef(null);
   const workRef = useRef(null);
+  const experienceRef = useRef(null);
   const contactRef = useRef(null);
 
   const scrollToSection = (sectionRef) => {
@@ -26,6 +29,7 @@ function App() {
         aboutRef={aboutRef}
         skillsRef={skillsRef}
         workRef={workRef}
+        experienceRef={experienceRef}
         contactRef={contactRef}
       />
 
@@ -41,9 +45,17 @@ function App() {
         <section ref={workRef} className="mt-12">
           <Work />
         </section>
+
+        <section ref={experienceRef} className="mt-12">
+          <Experience />
+        </section>
+
+        <section ref={contactRef} className="mt-12">
+          <Contact />
+        </section>
       </main>
 
-      <Footer contactRef={contactRef} />
+      <Footer />
     </div>
   );
 }

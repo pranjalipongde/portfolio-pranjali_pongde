@@ -3,9 +3,8 @@ import ProfileImg from "../assets/profile.jpg"; // Ensure the image is lowercase
 
 const About = () => {
   return (
-    <div className="h-screen w-full px-6 py-8 flex flex-col items-center justify-center text-center md:text-left md:max-w-3xl lg:max-w-4xl mx-auto">
-      {/* Image (Only visible on mobile) */}
-      <div className="w-40 h-40 md:hidden mb-6">
+    <div className="min-h-screen w-full px-6 py-8 flex flex-col items-center justify-center text-center md:text-left md:max-w-3xl lg:max-w-4xl mx-auto">
+      <div className="w-40 h-40 md:hidden mb-6 ">
         <img
           src={ProfileImg}
           alt="Pranjali Pongde"
