@@ -5,9 +5,11 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Work from "./components/Work";
+import Skills from "./components/Skills";
 
 function App() {
   const aboutRef = useRef(null);
+  const skillsRef = useRef(null);
   const workRef = useRef(null);
   const contactRef = useRef(null);
 
@@ -22,6 +24,7 @@ function App() {
       <Navbar
         onNavigate={scrollToSection}
         aboutRef={aboutRef}
+        skillsRef={skillsRef}
         workRef={workRef}
         contactRef={contactRef}
       />
@@ -31,7 +34,11 @@ function App() {
           <About />
         </section>
 
-        <section ref={workRef}>
+        <section ref={skillsRef} className="mt-12">
+          <Skills />
+        </section>
+
+        <section ref={workRef} className="mt-12">
           <Work />
         </section>
       </main>

@@ -7,9 +7,14 @@
   font-family: "Lato", serif;
 }
 
-h1 {
+h1,
+h2,
+.name,
+.skills {
   font-family: "Marcellus", serif;
 }
-p {
+
+p,
+.text {
   font-family: "Montserrat", serif;
 }
