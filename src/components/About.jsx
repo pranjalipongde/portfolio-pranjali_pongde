@@ -14,23 +14,27 @@ const About = () => {
 
       <div className="md:w-full">
         <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-snug">
-          Hey, You. <br /> I'm{" "}
+          Hello, there! <br /> I'm{" "}
           <span className="text-pink-700 name">Pranjali Pongde.</span>
         </h1>
 
         <div className="mt-6">
           <p className="text-lg leading-relaxed text-gray-700">
-            👋 I am a passionate <b>Frontend Developer</b> with expertise in{" "}
-            <b className="text-pink-600">HTML, CSS, JavaScript, and React.</b>I
-            love crafting visually appealing and high-performance web
-            applications while ensuring a seamless user experience.
+            👋 I am a <b>Frontend Developer</b> with{" "}
+            <b className="text-pink-600">1.5+</b> years of experience in
+            building responsive and high-performance web applications. Skilled
+            in
+            <b className="text-pink-600">HTML, CSS, JavaScript, and React,</b> I
+            focus on crafting seamless user experiences with modern tools like{" "}
+            <b className="text-pink-600">Next.js, Git, and Vercel.</b>
           </p>
           <p className="text-lg mt-4 leading-relaxed text-gray-700">
-            Beyond coding, I also enjoy creating{" "}
-            <b className="text-pink-600">Canva designs</b>
-            as a part-time passion, blending creativity with technology. Always
-            eager to learn, I stay updated with tools like{" "}
-            <b className="text-pink-600">Next.js, Git, and Vercel.</b>
+            Beyond coding, I have a creative edge in{" "}
+            <b className="text-pink-600">Canva design</b> , blending aesthetics
+            with technology. Always eager to{" "}
+            <b className="text-pink-600">learn and innovate</b>, I strive to
+            push the boundaries of{" "}
+            <b className="text-pink-600">frontend development.</b>
           </p>
         </div>
       </div>

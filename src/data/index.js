@@ -23,14 +23,25 @@ export const projectData = {
       description: "Simple Travel app UI using Tailwind CSS and Next.js.",
       gitHubLink:
         "https://github.com/pranjalipongde/Tailwind-travel-app-design",
+      hostedLink:
+        "https://tailwind-travel-app-design-q0xb0tq4h-pranjalipongdes-projects.vercel.app/",
     },
     {
       id: 7,
       title: "Spotify Music UI",
       description:
         "A responsive music player UI with smooth transitions and animations.",
+      gitHubLink: "https://github.com/pranjalipongde/spotify_music_UI",
+      hostedLink: "https://spotify-music-ui.vercel.app/",
+    },
+    {
+      id: 8,
+      title: "Manage Landing Page",
+      description:
+        "A responsive landing page build using tailwind css and this is the frontend mentor challege",
       gitHubLink:
-        "https://github.com/pranjalipongde/Tailwind-travel-app-design",
+        "https://github.com/pranjalipongde/frontend-mentor-manage-site",
+      hostedLink: "https://frontend-mentor-manage-landing-pagee.netlify.app/",
     },
   ],
   Frontend: [
@@ -54,6 +65,7 @@ export const projectData = {
       description:
         "A note-taking application that allows users to create, edit, and delete notes, similar to a to-do list.",
       gitHubLink: "https://github.com/pranjalipongde/react-notes-app",
+      hostedLink: "https://react-notes-app-pranjali.netlify.app/",
     },
     {
       id: 6,
@@ -65,7 +77,7 @@ export const projectData = {
   ],
   Canva: [
     {
-      id: 8,
+      id: 9,
       title: "Social Media Posts",
       description:
         "Designed multiple Instagram and social media post templates using Canva for brand engagement.",
@@ -97,25 +109,11 @@ export const EXPERIENCES = [
       "Built a personal brand website and contributed to an e-commerce platform by integrating APIs and managing admin panel components. Developed a healthcare website and ensured cross-functional collaboration to address technical challenges effectively.",
   },
   {
-    company: "Career Gap",
-    role: "Health Recovery",
-    year: "03/2022 - 08/2022",
-    description:
-      "Took a brief career break due to health reasons, including surgery. Focused on recovery while staying updated with frontend technologies by participating in online courses and coding exercises to maintain skills.",
-  },
-  {
     company: "Newton School",
     role: "Frontend Development Trainee",
     year: "09/2021 - 02/2022",
     description:
       "Gained proficiency in React.js, JavaScript, and modern web development practices. Built responsive websites using Tailwind CSS and Hooks for state management. Actively participated in code reviews and workshops to refine development skills.",
-  },
-  {
-    company: "Career Gap",
-    role: "Exploring Career Opportunities",
-    year: "03/2020 - 08/2021",
-    description:
-      "After completing my tenure as a Graduate Electronics Engineer Trainee, I took time to explore career opportunities in technology. During this period, I transitioned to software development, focusing on acquiring skills in web development through self-learning and formal training programs.",
   },
   {
     company: "Funskool India Pvt. Ltd.",
